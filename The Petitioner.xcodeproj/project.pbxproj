@@ -12,6 +12,9 @@
 		3FC5168C2361D67100A71FD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC5168A2361D67100A71FD9 /* Main.storyboard */; };
 		3FC5168E2361D67700A71FD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC5168D2361D67700A71FD9 /* Assets.xcassets */; };
 		3FC516912361D67700A71FD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC5168F2361D67700A71FD9 /* LaunchScreen.storyboard */; };
+		3FC516992361D87700A71FD9 /* PetitionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC516982361D87700A71FD9 /* PetitionBank.swift */; };
+		3FC5169B2361DFC000A71FD9 /* PetitionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5169A2361DFC000A71FD9 /* PetitionsTableViewController.swift */; };
+		3FC5169D2361E68400A71FD9 /* PetitionInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5169C2361E68400A71FD9 /* PetitionInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		3FC5168D2361D67700A71FD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC516902361D67700A71FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FC516922361D67700A71FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC516982361D87700A71FD9 /* PetitionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionBank.swift; sourceTree = "<group>"; };
+		3FC5169A2361DFC000A71FD9 /* PetitionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionsTableViewController.swift; sourceTree = "<group>"; };
+		3FC5169C2361E68400A71FD9 /* PetitionInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				3FC5168D2361D67700A71FD9 /* Assets.xcassets */,
 				3FC5168F2361D67700A71FD9 /* LaunchScreen.storyboard */,
 				3FC516922361D67700A71FD9 /* Info.plist */,
+				3FC516982361D87700A71FD9 /* PetitionBank.swift */,
+				3FC5169A2361DFC000A71FD9 /* PetitionsTableViewController.swift */,
+				3FC5169C2361E68400A71FD9 /* PetitionInfoViewController.swift */,
 			);
 			path = "The Petitioner";
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC5169D2361E68400A71FD9 /* PetitionInfoViewController.swift in Sources */,
+				3FC516992361D87700A71FD9 /* PetitionBank.swift in Sources */,
 				3FC516892361D67100A71FD9 /* ViewController.swift in Sources */,
 				3FC516872361D67100A71FD9 /* AppDelegate.swift in Sources */,
+				3FC5169B2361DFC000A71FD9 /* PetitionsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
